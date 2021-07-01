@@ -5,8 +5,7 @@ module.exports = {
   dest: "pages",
   themeConfig: {
     summary: true,
-    nav: [
-      {
+    nav: [{
         text: "Home",
         link: "/",
         icon: "el-icon-house"
@@ -21,8 +20,7 @@ module.exports = {
     disqus: "disquswebsiteshortname", // if you want to incorporate Disqus for comments replace this value else just get rid of it
     googleAnalytics: "", // Google Analytics tracking ID
     footer: {
-      contact: [
-        {
+      contact: [{
           type: "github",
           link: "https://github.com/z3by"
         },
@@ -39,8 +37,7 @@ module.exports = {
           link: "#"
         }
       ],
-      copyright: [
-        {
+      copyright: [{
           text: "Privacy Policy",
           link: "https://policies.google.com/privacy?hl=en-US"
         },

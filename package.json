@@ -25,11 +25,9 @@
   "scripts": {
     "test": "npm run lint && jest",
     "lint": "disable",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "example:dev": "vuepress dev example --temp example/.temp",
-    "example:build": "vuepress build example --temp example/.temp",
-    "prepublishOnly": "npm run example:build && conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
+    "docs:dev": "vuepress dev docs --temp docs/.temp",
+    "docs:build": "vuepress build docs --temp docs/.temp",
+    "prepublishOnly": "npm run docs:build && conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
   },
   "repository": {
     "url": "z3by/vuepress-theme-medium",
